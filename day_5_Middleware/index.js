@@ -1,6 +1,17 @@
 
 const express=require("express")
+const fs= require("fs")
  const app= express() //invoking
+
+ const routeLogger=(req,res,next)=>{
+    const startTime=new Date().getTime()
+    next()
+
+    const endTime= new Date().getTime() 
+
+    fs.appendFileSync("./routeDetails.txt",`RouteVisited: ${req.url},method:${req.method} || ResponseTime:${endTime-startTime}ms\n`)
+ }
+ app.use(routeLogger)
 
  
 
@@ -10,18 +21,9 @@ app.get("/",(req,res)=>{
 })
 
 
-app.use((req,res,next)=>{
 
-    console.log("hello from middleware")
-    if(req.url==="/about"){
-    next()
-    }
-    else{
-        res.send("not permitted")
-    }
-    console.log("by middleware")
- })
 
+    
 app.get("/about",(req,res)=>{
     console.log("about page")
     res.send("about page")
