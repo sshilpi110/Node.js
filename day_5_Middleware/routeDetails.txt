@@ -1,1 +1,6 @@
-RouteVisited: /contact,method:GET || ResponseTime:18ms
+RouteVisited: /data,method:GET || ResponseTime:123ms
+RouteVisited: /data,method:GET || ResponseTime:124ms
+RouteVisited: /data,method:GET || ResponseTime:140ms
+RouteVisited: /data,method:GET || ResponseTime:222ms
+RouteVisited: /,method:GET || ResponseTime:4ms
+RouteVisited: /,method:GET || ResponseTime:25ms
