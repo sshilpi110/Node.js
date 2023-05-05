@@ -2,28 +2,15 @@
 const express = require("express")
 const fs = require("fs")
 
+const app = express() //invoking middleware
 const { routeLogger } = require("./Middlewares/Logger.middleware")
 
-const app = express() //invoking
-app.use(routeLogger)
+const { first, third, second } = require("./Middlewares/multiple.middleware")
 
+app.use(routeLogger)  // invoking routemiddleware
 
-const first=((req,res,next)=>{
-    console.log("1")
-    next()
-    console.log("2")
-})
-const second=((req,res,next)=>{
-    console.log("3")
-    next()
-    console.log("4")
-})
-const third=((req,res,next)=>{
-    console.log("5")
-    next()
-    console.log("6")
-})
-app.use(first,third,second)
+app.use(first, third, second)
+
 
 
 app.get("/", (req, res) => {

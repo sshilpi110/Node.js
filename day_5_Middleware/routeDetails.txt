@@ -4,3 +4,7 @@ RouteVisited: /data,method:GET || ResponseTime:140ms
 RouteVisited: /data,method:GET || ResponseTime:222ms
 RouteVisited: /,method:GET || ResponseTime:4ms
 RouteVisited: /,method:GET || ResponseTime:25ms
+RouteVisited: /,method:GET || ResponseTime:19ms
+RouteVisited: /,method:GET || ResponseTime:4ms
+RouteVisited: /,method:GET || ResponseTime:20ms
+RouteVisited: /,method:GET || ResponseTime:26ms
