@@ -1,0 +1,56 @@
+{
+    "students": [
+        {
+            "name": "chiku",
+            "age": 25,
+            "city": "noida"
+        },
+        {
+            "name": "phiku",
+            "age": 25,
+            "city": "soida"
+        },
+        {
+            "name": "mhiku",
+            "age": 25,
+            "city": "moida"
+        },
+        {
+            "name": "suman",
+            "city": "munger",
+            "age": 50
+        },
+        {
+            "name": "suman",
+            "city": "munger",
+            "age": 50
+        },
+        {
+            "name": "radhika",
+            "city": "munger",
+            "age": 50
+        }
+    ],
+    "teachers": [
+        {
+            "name": "mohan",
+            "age": 25,
+            "city": "mumbai"
+        },
+        {
+            "name": "sohan",
+            "age": 25,
+            "city": "chennai"
+        },
+        {
+            "name": "rohan",
+            "age": 25,
+            "city": "gujrat"
+        },
+        {
+            "name": "suman",
+            "city": "munger",
+            "age": 50
+        }
+    ]
+}
