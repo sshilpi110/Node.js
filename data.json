@@ -1,0 +1,45 @@
+{
+    "students": [
+        {
+            "name": "eechalu",
+            "age": 67,
+            "city": "munger"
+        },
+        {
+            "name": "qqchalu",
+            "age": 67,
+            "city": "munger"
+        },
+        {
+            "name": "chalu",
+            "age": 67,
+            "city": "munger"
+        },
+        {
+            "name": "shilpi",
+            "age": 28
+        }
+    ],
+    "teachers": [
+        {
+            "name": "chakri babu",
+            "age": 60,
+            "city": "mumbai"
+        },
+        {
+            "name": "sarkari babu",
+            "age": 60,
+            "city": "mumbai"
+        },
+        {
+            "name": "bihari babu",
+            "age": 60,
+            "city": "mumbai"
+        },
+        {
+            "name": "puskar",
+            "age": 78,
+            "city": "bgp"
+        }
+    ]
+}
