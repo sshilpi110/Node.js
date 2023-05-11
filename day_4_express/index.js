@@ -4,9 +4,9 @@ const express = require("express")
 const app = express() // invoking
 const fs = require("fs")
 
-app.use(express.json())
+app.use(express.json()) //middleware
 
-app.get("/", (req, res) => {
+app.get("/", (req, res)=>{
     res.send("Home page")
 })
 app.get("/data", (req, res) => {

@@ -6,11 +6,15 @@ const app = express() //invoking middleware
 const { routeLogger } = require("./Middlewares/Logger.middleware")
 
 const { first, third, second } = require("./Middlewares/multiple.middleware")
+const { studentRouter } = require("./Routes/stuudents.route")
+
+
 
 app.use(routeLogger)  // invoking routemiddleware
 
 app.use(first, third, second)
-
+app.use(cors())
+app.use("/student",studentRouter)
 
 
 app.get("/", (req, res) => {
