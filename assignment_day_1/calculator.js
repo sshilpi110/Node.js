@@ -6,9 +6,10 @@ const input = process.argv.slice(2)
 const operation = input[0]
 
 const num1 = parseFloat(input[1])
-// console.log(num1)
 const num2 = parseFloat(input[2])
 const length = parseFloat(input[3]) || 8
+console.log(length)
+
 
 if (operation === "add") {
     console.log(num1 + num2)
